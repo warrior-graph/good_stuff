@@ -1,0 +1,13 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Sun Sep  9 21:47:13 2018
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/fedora_localhost--live-root /                       ext4    defaults        1 1
+UUID=61d0f514-405d-44ea-8b7d-094fa58f38bb /boot                   ext4    defaults        1 2
+UUID=E804-3DED          /boot/efi               vfat    umask=0077,shortname=winnt 0 2
+/dev/mapper/fedora_localhost--live-home /home                   xfs     defaults        0 0
+ xhugetlbfs    /hugepages    hugetlbfs    defaults    0 0
