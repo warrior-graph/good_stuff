@@ -1,0 +1,7 @@
+dmesg | grep -i IOMMU
+dracut -f --kver `uname -r`
+systemct daemon-reload
+systemctl daemon-reload
+systemctl start disable-thp
+systemctl enable disable-thp
+
